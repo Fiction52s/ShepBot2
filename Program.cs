@@ -10,11 +10,14 @@ namespace ShepBot2
 
         static IrcClient irc;
 
+        static Deck deck;
+
         static Program()
         {
             // Initialize and connect to Twitch chat
             irc = new IrcClient("irc.twitch.tv", 6667,
                 Env._botName, Env._twitchOAuth, Env._broadcasterName);
+              deck = new Deck();
         }
 
         // Listen to the chat until program exits
@@ -154,6 +157,14 @@ namespace ShepBot2
                 {
                     RunRPS(words[1]);
                 }
+            }
+            else if( command.Equals( "!wobbling"))
+            {
+                irc.SendPublicChatMessage("Wobbling is a degenerate mechanic used by bad players to waste everyone's time. You should want it completely banned if you appreciate your own finite lifespan and memories at all.");
+            }
+            else if( command.Equals("!drawcard"))
+            {
+                irc.SendPublicChatMessage(deck.DrawCard());
             }
         }
 

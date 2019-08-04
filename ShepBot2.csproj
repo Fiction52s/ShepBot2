@@ -148,6 +148,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Card.cs" />
+    <Compile Include="Deck.cs" />
     <Compile Include="Env.cs" />
     <Compile Include="IRCClient.cs" />
     <Compile Include="PingSender.cs" />
