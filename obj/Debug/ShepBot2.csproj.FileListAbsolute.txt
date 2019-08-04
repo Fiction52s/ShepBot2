@@ -1,0 +1,7 @@
+c:\users\ficti\documents\visual studio 2015\Projects\ShepBot2\ShepBot2\bin\Debug\ShepBot2.exe.config
+c:\users\ficti\documents\visual studio 2015\Projects\ShepBot2\ShepBot2\bin\Debug\ShepBot2.exe
+c:\users\ficti\documents\visual studio 2015\Projects\ShepBot2\ShepBot2\bin\Debug\ShepBot2.pdb
+c:\users\ficti\documents\visual studio 2015\Projects\ShepBot2\ShepBot2\obj\Debug\ShepBot2.exe
+c:\users\ficti\documents\visual studio 2015\Projects\ShepBot2\ShepBot2\obj\Debug\ShepBot2.pdb
+C:\Users\ficti\Documents\Visual Studio 2015\Projects\ShepBot2\ShepBot2\obj\Debug\ShepBot2.csprojAssemblyReference.cache
+C:\Users\ficti\Documents\Visual Studio 2015\Projects\ShepBot2\ShepBot2\obj\Debug\ShepBot2.csproj.CoreCompileInputs.cache
